@@ -17,6 +17,6 @@ class String
   end
 
   def count_sentences
-   self.gsub(/\s+/m, ' ').strip.split(" ")
+   self.gsub(/\s+/m, '.').strip.split(" ")
   end
 end
