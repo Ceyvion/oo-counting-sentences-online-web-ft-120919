@@ -17,8 +17,9 @@ class String
   end
 
   def count_sentences
-    binding.pry 
-    self.split("./?")
+
+String = self.squeeze(”.”) 
+string = string.squeeze(”!”) string.split(/[$.|?|!]/).count
 
   end
 end
